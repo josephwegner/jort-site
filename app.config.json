@@ -1,0 +1,10 @@
+{
+  "name": "jort",
+  "environment": "prod",
+  "region": "us-east-1",
+  "lambdas": [],
+  "frontend": {
+    "buildCommand": "npm run build",
+    "distDir": "dist"
+  }
+}

@@ -1,0 +1,7 @@
+dist/
+node_modules/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+recordings/
