@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jort is a native Mac scratchpad for plain text, practical tools, and ideas worth keeping.">
+    <meta name="theme-color" content="#071923">
+    <title>Jort — Plain text with benefits</title>
+    <link rel="icon" href="assets/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="Jort home">
+          <img src="assets/icon.png" alt="" width="64" height="64">
+          <span>Jort</span>
+        </a>
+
+        <a class="button mobile-download" href="#" data-placeholder-link>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
+          Download
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
+          <a href="#features">How it works</a>
+          <a href="#" aria-label="GitHub repository, coming soon" data-placeholder-link>GitHub</a>
+          <a class="button button-small" href="#" data-placeholder-link>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
+            Download for Mac
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="ambient ambient-one"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">A text editor you can tell your mom about</p>
+          <h1>Plain text<br /><em>with benefits</em></h1>
+          <p class="lede">A fast, native scratchpad for Mac. Keep it simple, or dress it up with tools, scripts, and automation.</p>
+          <div class="hero-actions">
+            <a class="button" href="#" data-placeholder-link>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
+              Download for macOS
+            </a>
+            <a class="button button-outline" href="#features">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4Z"/></svg>
+              See it in action
+            </a>
+          </div>
+          <p class="fine-print">Plain text. Local first. Just works.</p>
+        </div>
+
+        <figure class="hero-preview reveal reveal-late">
+          <img src="assets/jort-preview.png" alt="Jort editor showing notes, landmarks, and inline tools" width="2578" height="1866">
+        </figure>
+      </section>
+
+      <section class="features" id="features" aria-label="Jort features">
+        <article class="feature reveal">
+          <figure class="product-shot product-shot-landmarks">
+            <img src="assets/jort-landmarks.png" alt="Emoji landmarks replacing line numbers in the Jort editor" width="784" height="388" loading="lazy">
+          </figure>
+          <div class="feature-copy">
+            <p class="feature-number">01 / Find your place</p>
+            <h2>Landmarks to guide you.</h2>
+            <p>Give important lines a visual marker, then scan and jump through your notes without breaking your train of thought.</p>
+          </div>
+        </article>
+
+        <article class="feature feature-reverse reveal">
+          <figure class="product-shot product-shot-tools">
+            <img src="assets/jort-tools.png" alt="A custom JavaScript tool running inline inside Jort" width="1462" height="506" loading="lazy">
+          </figure>
+          <div class="feature-copy">
+            <p class="feature-number">02 / Make it yours</p>
+            <h2>Tools where you write.</h2>
+            <p>Turn your text into something powerful. Use JavaScript, AI assistants, and transform text directly in the document with no context switching.</p>
+          </div>
+        </article>
+
+        <article class="feature reveal">
+          <figure class="product-shot product-shot-history">
+            <img src="assets/jort-history.png" alt="Jort version history showing changes and restorable snapshots" width="2078" height="1049" loading="lazy">
+          </figure>
+          <div class="feature-copy">
+            <p class="feature-number">03 / Never lose a thought</p>
+            <h2>Every change,<br>right where you left it.</h2>
+            <p>Browse the history of your document, inspect exactly what changed, and return to an earlier snapshot whenever you need it.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="plain-text reveal">
+        <p class="eyebrow">Your files belong to you</p>
+        <h2>Plain text stays<br /><em>plain text.</em></h2>
+        <p>No account maze. No proprietary workspace. Just text in an editor, even if you're a power user.</p>
+      </section>
+
+      <section class="closing">
+        <div class="closing-content reveal">
+          <h2>Notes, but a little <em>risque.</em></h2>
+          <p>Jort is a native Mac text editor for people who think in text, move quick, and have a taste for something more.</p>
+          <a class="button" href="#" data-placeholder-link>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
+            Download for macOS
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="brand footer-brand" href="#top" aria-label="Jort home">
+          <img src="assets/icon.png" alt="" width="52" height="52">
+          <span>Jort</span>
+        </a>
+        <p>Just text. More possibilities.</p>
+        <nav aria-label="Footer navigation">
+          <a href="#features">How it works</a>
+          <a href="#" data-placeholder-link>GitHub</a>
+          <a href="#top" aria-label="Back to top">↑</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
