@@ -10,7 +10,22 @@ Open `index.html` directly, or serve this directory with any static file server:
 python3 -m http.server 8000
 ```
 
-The download and GitHub links are intentionally placeholders. Replace links marked with `data-placeholder-link` in `index.html` when their destinations are ready.
+The selected design lives in `index.html`, `styles.css`, and `script.js`.
+The former `concepts/index.html` preview redirects to the main site.
+
+Edit copy in `index.html`. Colors, spacing, and responsive layouts live in
+`styles.css`; the locked mosaic layout and rotation settings are at the top of
+`script.js`. Feature sections alternate sides on desktop and use title, visual,
+then description at widths of 760px and below. The screenshot frames use a 30%
+opaque yellow background; the screenshots themselves remain opaque.
+
+The demo video plays muted and loops. On mobile it sits in the purple section
+in normal page flow, without the desktop growth and pinning effect. The mobile
+feature navigation sits just below the video and scrolls normally with the page. Native controls remain available if autoplay is
+restricted. Scroll effects share one animation loop, cache layout measurements,
+and honor reduced-motion preferences. Images reserve their dimensions and load
+lazily; all media is served separately for caching. The page remains usable
+without JavaScript.
 
 ## Build
 
@@ -19,7 +34,7 @@ npm install
 npm run build
 ```
 
-The static distribution is written to `dist/`.
+The static distribution is written to `dist/`, including only the media referenced by the page. Building does not publish the site.
 
 ## Deployment
 

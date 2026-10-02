@@ -4,142 +4,163 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Jort is a native Mac scratchpad for plain text, practical tools, and ideas worth keeping.">
-    <meta name="theme-color" content="#071923">
+    <meta name="theme-color" content="#774b71">
     <title>Jort — Plain text with benefits</title>
-    <link rel="icon" type="image/png" href="assets/jort-color.png">
+    <link rel="icon" type="image/png" href="assets/jort-logo.png">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-
-    <header class="site-header" data-header>
-      <div class="nav-shell">
-        <a class="brand" href="#top" aria-label="Jort home">
-          <img src="assets/jort-color.png" alt="" width="64" height="64">
-          <span>Jort</span>
-        </a>
-
-        <a class="button mobile-download" href="#" data-placeholder-link>
-          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
-          Download
-        </a>
-
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
-          <span class="sr-only">Toggle navigation</span>
-          <span></span><span></span><span></span>
-        </button>
-
-        <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
-          <a href="#features">How it works</a>
-          <a href="#" aria-label="GitHub repository, coming soon" data-placeholder-link>GitHub</a>
-          <a class="button button-small" href="#" data-placeholder-link>
-            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
-            Download for Mac
-          </a>
-        </nav>
-      </div>
-    </header>
-
-    <main id="main">
-      <section class="hero" id="top">
-        <div class="ambient ambient-one"></div>
-        <div class="hero-copy reveal">
-          <p class="eyebrow">A text editor you can tell your mom about</p>
-          <h1>Plain text<br /><em>with benefits</em></h1>
-          <p class="lede">A fast, native scratchpad for Mac. Keep it simple, or dress it up with tools, scripts, and automation.</p>
-          <div class="hero-actions">
-            <a class="button" href="#" data-placeholder-link>
-              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
-              Download for macOS
+    <a class="skip-link" href="#top">Skip to content</a>
+    <main id="top">
+      <div class="feature-stage">
+        <div class="feature-atmosphere" aria-hidden="true">
+          <div class="scene-mosaic">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2400" preserveAspectRatio="xMidYMin meet" aria-hidden="true">
+              <defs>
+                <filter id="sharp-mosaic" x="-40%" y="-40%" width="180%" height="180%">
+                  <feDropShadow dx="4" dy="10" stdDeviation="10" flood-color="#121821" flood-opacity=".15"/>
+                </filter>
+              </defs>
+              <g filter="url(#sharp-mosaic)" opacity="0.85">
+                <path d="M-40-50H360L190 340-60 460Z" fill="hsl(305.1 22.4% 42.8%)"/>
+                <path d="M65 30L430 210 120 450Z" fill="hsl(301.8 16.8% 47.9%)"/>
+                <path d="M1380-40L1640 100 1610 670 1280 360Z" fill="hsl(305.1 22.4% 42.8%)"/>
+                <path d="M1450 120L1640 300 1350 480Z" fill="hsl(28.0 44.0% 54.8%)"/>
+                <path d="M-80 850L270 650 180 1150-50 1290Z" fill="hsl(303.1 17.5% 45.4%)"/>
+                <path d="M-30 1040L250 970 80 1310Z" fill="hsl(302.7 7.8% 52.6%)"/>
+                <path d="M1390 1020L1660 760 1640 1400 1210 1280Z" fill="hsl(305.1 21.4% 43.6%)"/>
+                <path d="M1410 1160L1580 1030 1510 1380Z" fill="hsl(28.0 44.0% 55.8%)"/>
+                <path d="M-50 1690L210 1500 360 1850 120 2190-50 2040Z" fill="hsl(304.6 21.4% 44.2%)"/>
+                <path d="M-40 1890L290 1780 140 2200Z" fill="hsl(301.2 13.5% 49.1%)"/>
+                <path d="M1510 1740L1670 1900 1620 2500 1270 2350 1390 2140Z" fill="hsl(304.2 15.2% 47.7%)"/>
+                <path d="M1360 2140L1660 2310 1390 2470Z" fill="hsl(28.0 44.0% 54.8%)"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="journey" id="journey">
+          <section class="hero">
+            <header class="topbar wrap">
+              <a class="brand" href="#top" aria-label="Jort home">
+                <img src="assets/jort-logo.png" alt="" width="172" height="180">
+                Jort
+              </a>
+              <nav class="topnav" aria-label="Main navigation">
+                <a href="#features">Features</a>
+                <a href="https://github.com/josephwegner/jort">GitHub</a>
+              </nav>
+            </header>
+            <div class="intro wrap" id="hero-copy">
+              <h1>Plain text with benefits</h1>
+              <div class="actions">
+                <a class="cta" href="https://github.com/josephwegner/jort/releases/latest">Get Jort for Mac</a>
+                <a class="fork" href="https://github.com/josephwegner/jort">or fork it</a>
+              </div>
+            </div>
+            <div class="launch-slot wrap" id="launch-slot" aria-hidden="true"></div>
+            <div class="rail-home wrap" id="rail-home" aria-hidden="true"></div>
+          </section>
+          <section class="landing" id="features" aria-label="Jort in action">
+            <div class="dock-slot" id="dock-slot" aria-hidden="true"></div>
+          </section>
+          <figure class="demo-flight" id="demo-flight">
+            <video src="assets/demo.mp4" autoplay muted loop playsinline controls preload="metadata" width="1200" height="760" aria-label="Jort app demonstration">
+            </video>
+          </figure>
+          <nav class="feature-rail" id="feature-rail" aria-label="Jort features">
+            <a href="#landmarks">
+              <strong>Landmarks</strong>
+              <span>Mark your place and get back quickly</span>
             </a>
-            <button class="button button-outline" type="button" data-demo-trigger aria-controls="jort-demo">
-              <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4Z"/></svg>
-              See it in action
-            </button>
-          </div>
-          <p class="fine-print">Plain text. Local first. Just works.</p>
+            <a href="#tools">
+              <strong>Tools</strong>
+              <span>Sort, dedupe, remind, and more.</span>
+            </a>
+            <a href="#ai">
+              <strong>AI Integrations</strong>
+              <span>Optional AI. Reviewed by you</span>
+            </a>
+            <a href="#history">
+              <strong>History</strong>
+              <span>Rich diffs for all your changes</span>
+            </a>
+          </nav>
         </div>
-
-        <figure class="hero-preview reveal reveal-late" data-demo-preview>
-          <img class="hero-preview-poster" src="assets/jort-preview.png" alt="Jort editor showing notes, landmarks, and inline tools" width="2578" height="1866">
-          <video id="jort-demo" class="hero-preview-video" muted playsinline preload="metadata" poster="assets/jort-preview.png" aria-label="Jort quickly building a note and using inline AI tools">
-            <source src="assets/demo.webm" type="video/webm">
-            <source src="assets/demo.mp4" type="video/mp4">
-          </video>
-          <button class="demo-replay" type="button" data-demo-replay hidden>
-            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></svg>
-            Replay
-          </button>
-        </figure>
-      </section>
-
-      <section class="features" id="features" aria-label="Jort features">
-        <article class="feature reveal">
-          <figure class="product-shot product-shot-landmarks">
-            <img src="assets/jort-landmarks.png" alt="Emoji landmarks replacing line numbers in the Jort editor" width="784" height="388" loading="lazy">
-          </figure>
-          <div class="feature-copy">
-            <p class="feature-number">01 / Find your place</p>
-            <h2>Landmarks to guide you.</h2>
-            <p>Give important lines a visual marker, then scan and jump through your notes without breaking your train of thought.</p>
+        <section class="highlight" id="landmarks">
+          <div class="feature-layout wrap">
+            <h2>Find your landmarks.</h2>
+            <div class="art">
+              <img src="assets/jort-landmarks.png" alt="Emoji landmarks beside passages in Jort’s gutter" width="784" height="388" loading="lazy" decoding="async">
+            </div>
+            <div class="feature-copy">
+              <p>Mark your place with a landmark. Keep jotting, and jump back quickly.</p>
+              <div class="tool-chips">
+                <span>✅ Todos</span>
+                <span>💬 Meeting topics</span>
+                <span>💪 Workout tracking</span>
+              </div>
+            </div>
           </div>
-        </article>
-
-        <article class="feature feature-reverse reveal">
-          <figure class="product-shot product-shot-tools">
-            <img src="assets/jort-tools.png" alt="A custom JavaScript tool running inline inside Jort" width="1462" height="506" loading="lazy">
-          </figure>
-          <div class="feature-copy">
-            <p class="feature-number">02 / Make it yours</p>
-            <h2>Tools where you write.</h2>
-            <p>Turn your text into something powerful. Use JavaScript, AI assistants, and transform text directly in the document with no context switching.</p>
+        </section>
+        <section class="highlight" id="tools">
+          <div class="feature-layout feature-layout--reverse wrap">
+            <h2>Notes that do more.</h2>
+            <div class="art">
+              <img src="assets/jort-tools.png" alt="Jort’s inline JavaScript tool workflow" width="1462" height="506" loading="lazy" decoding="async">
+            </div>
+            <div class="feature-copy">
+              <p>Write first, execute later. Sort, rewrite, format JSON, and anything else you can imagine.</p>
+              <div class="tool-chips">
+                <span>/calc</span>
+                <span>/sort</span>
+                <span>/copy-rich</span>
+                <span>/remind</span>
+                <span>/custom-tool</span>
+              </div>
+            </div>
           </div>
-        </article>
-
-        <article class="feature reveal">
-          <figure class="product-shot product-shot-history">
-            <img src="assets/jort-history.png" alt="Jort version history showing changes and restorable snapshots" width="2078" height="1049" loading="lazy">
-          </figure>
-          <div class="feature-copy">
-            <p class="feature-number">03 / Never lose a thought</p>
-            <h2>Every change,<br>right where you left it.</h2>
-            <p>Browse the history of your document, inspect exactly what changed, and return to an earlier snapshot whenever you need it.</p>
+        </section>
+        <section class="highlight" id="ai">
+          <div class="feature-layout wrap">
+            <h2>AI when you actually want it.</h2>
+            <div class="art">
+              <img src="assets/jort-tools.png" alt="Jort inline tools beside the plain-text canvas" width="1462" height="506" loading="lazy" decoding="async">
+            </div>
+            <div class="feature-copy">
+              <p>Invoke your AI tools with slash commands. Review the output, and merge if it helps.</p>
+            </div>
           </div>
-        </article>
-      </section>
-
-      <section class="plain-text reveal">
-        <p class="eyebrow">Your files belong to you</p>
-        <h2>Plain text stays<br /><em>plain text.</em></h2>
-        <p>No account maze. No proprietary workspace. Just text in an editor, even if you're a power user.</p>
-      </section>
-
-      <section class="closing">
-        <div class="closing-content reveal">
-          <h2>Notes, but a little <em>risque.</em></h2>
-          <p>Jort is a native Mac text editor for people who think in text, move quick, and have a taste for something more.</p>
-          <a class="button" href="#" data-placeholder-link>
-            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
-            Download for macOS
-          </a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="footer-inner">
-        <a class="brand footer-brand" href="#top" aria-label="Jort home">
-          <img src="assets/jort-color.png" alt="" width="52" height="52">
-          <span>Jort</span>
-        </a>
-        <p>Just text. More possibilities.</p>
-        <nav aria-label="Footer navigation">
-          <a href="#features">How it works</a>
-          <a href="#" data-placeholder-link>GitHub</a>
-          <a href="#top" aria-label="Back to top">↑</a>
-        </nav>
+        </section>
+        <section class="highlight" id="history">
+          <div class="feature-layout feature-layout--reverse wrap">
+            <h2>History is notable.</h2>
+            <div class="art">
+              <img src="assets/jort-history.png" alt="Jort version history showing earlier text and changes" width="2078" height="1049" loading="lazy" decoding="async">
+            </div>
+            <div class="feature-copy">
+              <p>Rich diffs for every change made, whether it's by you or a tool</p>
+              <div class="tool-chips">
+                <span>diff view</span>
+                <span>full restores</span>
+                <span>years of history</span>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </footer>
+      <footer class="footer">
+        <div class="wrap">
+          <div>
+            <h2>Jot it down. Make it yours.</h2>
+            <p>A dependable native Mac editor. Always plain text, always local.</p>
+          </div>
+          <div class="actions">
+            <a class="cta" href="https://github.com/josephwegner/jort/releases/latest">Get Jort for Mac</a>
+            <a class="fork" href="https://github.com/josephwegner/jort">or fork it</a>
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
